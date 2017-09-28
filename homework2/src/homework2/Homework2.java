@@ -28,10 +28,14 @@ public class Homework2 {
             System.out.println("Enter a number for the amount of megabytes used for month " + (f+1) + ". (P): ");
             p[f] = reader.nextInt();
         }
+        
+        System.out.println(available(x, n, p));
+    }
+    public int available(int x, int n, int p[]) {
         int a = 0;
         for(int f = 0; f < n; f++) {
             a=(x+a)-(p[f]);
         }
-        System.out.println(a+x);
-    }
+        return (a+x);
+    } 
 }
