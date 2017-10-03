@@ -37,5 +37,5 @@ public class Homework2 {
             a=(x+a)-(p[f]);
         }
         return (a+x);
-    } 
+    }
 }
