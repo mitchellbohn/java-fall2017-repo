@@ -1,21 +1,28 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package homework3;
-
-/**
- *
- * @author Mitchell
- */
+import java.util.*;
+/* @author Mitchell */
 public class Homework3 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Homework3 app = new Homework3();
+        app.run();
+    }
+    void run() {
+        ArrayList list = new ArrayList( );
+        list.add( 2 );
+        list.add( 7 );
+        list.add( 4 );
+        list.add( 8 );
+        list.add( 5 );
+        list.add( 7 );
+        list.add( 3 );
+        list.get( 0 );
+        list.remove( 2 );
+        Iterator it = list.iterator( );
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+        System.out.println("Size of list: " + list.size());
+        Collections.sort(list);
     }
     
 }
