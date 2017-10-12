@@ -16,13 +16,18 @@ public class Homework3 {
         list.add( 7 );
         list.add( 3 );
         list.get( 0 );
-        list.remove( 2 );
-        Iterator it = list.iterator( );
+        Iterator it = list.iterator();
         while (it.hasNext()) {
             System.out.println(it.next());
         }
         System.out.println("Size of list: " + list.size());
+        list.remove( 2 );
         Collections.sort(list);
+        it = list.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+        
     }
     
 }
