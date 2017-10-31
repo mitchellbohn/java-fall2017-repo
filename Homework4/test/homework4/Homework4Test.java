@@ -45,8 +45,6 @@ public class Homework4Test {
         System.out.println("createDatabase");
         String file = "";
         Homework4.createDatabase(file);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -57,8 +55,6 @@ public class Homework4Test {
         System.out.println("createTable");
         String file = "";
         Homework4.createTable(file);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -69,8 +65,6 @@ public class Homework4Test {
         System.out.println("main");
         String[] args = null;
         Homework4.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
