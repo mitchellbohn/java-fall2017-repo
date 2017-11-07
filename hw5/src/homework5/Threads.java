@@ -1,14 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package homework5;
 
-/**
- *
+/*
  * @author Mitchell
  */
+
 public class Threads {
     
     private class Task implements Runnable {
@@ -20,7 +15,7 @@ public class Threads {
         }
         
         void announce() {
-            System.out.println("Threads demonstration announced " + num);
+            System.out.println("Threads demonstration released " + num);
         }
         
         @Override
